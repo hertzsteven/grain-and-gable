@@ -1,0 +1,20 @@
+---
+description: Apply tasteskill (design-taste-frontend) when designing or polishing this site
+globs: index.html, styles.css, fonts/**, images/**
+alwaysApply: false
+---
+
+This repo is configured to use the **design-taste-frontend** skill (tasteskill v2 from TasteCode).
+
+When the user asks to design, redesign, polish, or de-slop the Grain & Gable site, read and follow:
+
+1. Global install (preferred): `~/.agents/skills/design-taste-frontend/SKILL.md`
+2. Project install (if present): `.agents/skills/design-taste-frontend/SKILL.md`
+
+If neither path exists, restore from the repo pin:
+
+```bash
+npx skills experimental_install -y
+```
+
+The pin is recorded in `skills-lock.json` at the repository root.
